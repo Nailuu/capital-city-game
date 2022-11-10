@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('assets/sssurf.svg');
+    background-color: #001d3d;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: block;
+    background-color: #212529;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#flag {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -4px;
+}
+
+#country {
+    display: flex;
+    justify-content: center;
+    color: #ced4da;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 25px;
+    margin: 0 45px;
+    border-bottom: 1px solid #adb5bd;
+    text-align: center;
+}
+
+#answer {
+    display: flex;
+    justify-content: center;
+}
+
+.answer-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.answer-button {
+    height: 40px;
+    width: 210px;
+    background-color: #343a40;
+    color: #ced4da;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.answer-button:hover {
+    transform: translateX(5px);
+    background-color: #adb5bd;
+    color: #495057;
+}
+
+.next-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.next-button {
+    height: 40px;
+    width: 210px;
+    background-color: #343a40;
+    color: #ced4da;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.next-button:hover {
+    background-color: #023e8a;
+    height: 60px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    /* transform: translateY(-5px); */
+    /* box-shadow: 0em 0.5em 0.5em -0.4em #0077b6; */
+}
